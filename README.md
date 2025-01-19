@@ -1,4 +1,4 @@
 # Radio_IC-980Pro
 Reversing project of chinese IC-980Pro Radio to understand all the hardware and try to add some functionalities.
 
-![](Foto-radio-inside.jpg)
+![](images/Foto-radio-inside.jpg)
