@@ -11,7 +11,10 @@ The main objective is to analyze the hardware and firmware of the radio to under
 ### Binaries
 - BY25D16AS@40SOP8-208.BIN : Memory dump from backside SPI flash.
 ![200](images/photo_2025-01-08_11-24-25.jpg)
-
+- openocd.py :config file to debug swd with openocd
+- firmloader.py : loader for stm32 arm in IDA64 debugger
+- Configuration for disssasembly binary in IDA
+![](stm32%20ida%20v0_1/Captura1.PNG)
 ## Objectives
 
 The main objectives of this project are:
@@ -20,11 +23,14 @@ The main objectives of this project are:
 2. Document the hardware and its operation.
 3. Explore possible improvements in the radio's configuration and operation.
 
-
+## Images
+Opened Radio from top
 ![](images/Foto-radio-inside.jpg)
-
+SPI FLASH
 ![400](images/photo_2025-01-08_11-24-25.jpg)
 
+How has to be connected the SWD port
 ![400](images/prog_debug_ic980pro.jpg)
 
+Debugg Interface after conect SWD port.
 ![500](images/Captura%20stm32f1xx.jpg)
